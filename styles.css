@@ -1,0 +1,144 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(https://img.freepik.com/foto-gratis/hermoso-paisaje-madre-naturaleza_23-2148992409.jpg?t=st=1717799555~exp=1717803155~hmac=5e4de16a9efbf83c43d0f52be689682ec625bda8fa3326361a9402ae53426142&w=1380);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+nav {
+    background-color: lightblue;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+nav ul li {
+    margin: 0 10px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+nav ul li a:hover {
+    background-color: #286b6d;
+    
+}
+
+
+.banner {
+    background-image: url('lakes-with-clear-waters-surrounded-by-high-peaks.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-content h1 {
+    color: white;
+    font-size: 3em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    font-family: "Spicy Rice", serif;
+}
+
+
+.centered-text {
+    text-align: center;
+    padding: 50px 20px;
+    margin: 20px 0;
+    
+    background-color: #0a6268cc;
+}
+.centered-text h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+.centered-text p {
+    font-size: 1em;
+    line-height: 1.6;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+    margin: 20px 0;
+   
+}
+.card {
+    background-color: #0a6268dc;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    width: 15%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.card h3 {
+    margin-top: 0;
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    
+}
+.card p {
+    font-size: 1em;
+}
+.card img {
+    width: 180px;
+    margin-left: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+    
+}
+
+
+footer {
+    background-color: #093f58d2;
+    color: rgb(255, 255, 255);
+    padding: 20px 0;
+    margin-top: 20px;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    
+    
+}
+.social-media a img {
+    width: 24px;
+    height: 24px;
+    margin: 0 10px;
+    
+    
+    
+}
+.contact-info p {
+    margin: 5px 0;
+}
+
+
+
+    
+
